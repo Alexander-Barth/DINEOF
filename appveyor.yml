@@ -12,11 +12,6 @@ platform:
   - x64 # 64-bit
 
 
-branches:
-  only:
-    - master
-    - /release-.*/
-
 artifacts:
   - path: dineof.exe
     name: dineof.exe
