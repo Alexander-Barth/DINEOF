@@ -33,7 +33,9 @@ install:
 
         pacman -U --noconfirm msys2-keyring-r21.b39fb11-1-any.pkg.tar.xz
 
-        pacman -Syu --noconfirm
+        pacman -Syy --noconfirm
+
+        REM pacman -Syu --noconfirm
 
         REM pacman -Su --noconfirm
 
